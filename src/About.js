@@ -20,7 +20,7 @@ const About = () => {
   {/* --------------------------------------------------------------- */}
         <div className="flex flex-row py-5 border-2" >
       <div className="w-1/2 mx-2">
-        <img src="https://images.mktw.net/im-651595?width=1280&size=1.33333333" alt="Photo" className="h-full w-full" />
+        <img src="https://images.mktw.net/im-651595?width=1280&size=1.33333333" alt="Photo" className="h-full w-full " />
       </div>
       <div className="w-1/2 p-4">
         <h1 className="text-2xl "> <strong>Texas Instruments</strong>    &#160;( Internship Nov 2020 - Jan 2022)</h1>
@@ -54,13 +54,13 @@ const About = () => {
     <div className="flex flex-row py-5 border-2" >
       <div className="w-1/2 mx-2">
         <div className="h-1/2">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/800px-.xyz_logo.svg.png" alt="Photo" className="h-auto w-full" />
+        <img src="https://spanidea.com/wp-content/uploads/2021/07/spanidea-logo-1.jpg" alt="Photo" className="h-auto w-full" />
         </div>
       </div>
       <div className="w-1/2 p-4">
-        <h1 className="text-2xl "> <strong>XYZ Pvt. Ltd.</strong>    &#160;( Software Engineer)</h1>
+        <h1 className="text-2xl "> <strong>SpanIdea Pvt. Ltd.</strong>    &#160;( Software Engineer)</h1>
         <p className="mt-4">
-          I joined XYZ company in june 2022 as an Associate Software Engineer. I was recruited for the position of Junior Web Developer.
+          I joined SpanIdea Pvt. Ltd. company in june 2022 as an Associate Software Engineer. I was recruited for the position of Junior Web Developer.
         </p>
         
         <p className="mt-4">
@@ -76,12 +76,22 @@ const About = () => {
           <strong>Skill Set:</strong> I have upskill my self and at this position I am good in :
           <p className="mt-1">
            <ol>
-            <li>C++</li>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>Tailwind CSS</li>
-            <li>Embedded C</li>
-            <li>Linux</li>
+            {/* ============================= */}
+           <div className="relative w-60" style={{marginTop:30}}  >
+      <div className=" w-60 h-60 rounded-lg overflow-hidden" >
+      </div>
+      <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-gray-800 to-transparent p-4">
+        <h3 className="text-base font-medium text-gray-900  " style={{marginTop:10}}><strong>C++</strong></h3>
+        <h3 className="text-base font-medium text-gray-900  " style={{marginTop:10}}><strong>React</strong></h3>
+        <h3 className="text-base font-medium text-gray-900  " style={{marginTop:10}}><strong>JavaScript</strong></h3>
+        <h3 className="text-base font-medium text-gray-200  " style={{marginTop:10}}><strong>Tailwind CSS</strong></h3>
+        <h3 className="text-base font-medium text-gray-200  " style={{marginTop:10}}><strong>Embedded C</strong></h3>
+        <h3 className="text-base font-medium text-gray-200  " style={{marginTop:10}}><strong>Linux</strong></h3>
+       
+      </div>
+      </div>
+      {/* ======================================== */}
+         
            </ol>
           </p>
         </p>  

@@ -73,10 +73,10 @@ const Home = () => {
         ]}
       /> */}
         <div className={`absolute bottom-0 left-0 grid grid-cols-2 p-4 transition-colors duration-500`}>
-        <div className="h-60 w-60 overflow-hidden  rounded-full " style={{"marginTop":"12%"}}>
+        <div className="h-48 w-48 overflow-hidden  rounded-full " style={{"marginTop":"12%"}}>
           <img
-            className="h-60 w-60 object-cover hover:animate-spin"
-            src="hireme.jpg"
+            className="h-48 w-48 object-cover  hover:animate-spin"
+            src="https://th.bing.com/th/id/R.6e22d939005ca2d81e938b5d06a38c8b?rik=UrvP7NoxTENI8Q&riu=http%3a%2f%2fblogimg.ngfiles.com%2f926000%2f926934%2f986966320_hire_me.png&ehk=0Wd%2fZ%2bHAsZypYn%2bCEmThd7MxGg4eb2BlSZ5CAM22feE%3d&risl=&pid=ImgRaw&r=0"
             alt="My Photo"
             onClick={handleImageClick}
             // alt="Rotating Image"
@@ -92,6 +92,7 @@ const Home = () => {
       <div className="flex items-end justify-end">
         {/* <YouTubePlayer/> */}
         </div>
+        {/* <SolarSystem/> */}
       </div>
    
   );
